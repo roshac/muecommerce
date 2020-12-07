@@ -1,0 +1,46 @@
+ 
+ TITLE:  MZUMBE UNIVERSITY ELECRINIC COMMERCE MU-ECOMMERCE(WEB APPLICATION SYSTEM)
+ 
+ MAIN OBJECTIVE: 
+ The sytem will help to buy sell and make auction online
+
+  REQUIREMENTS TO SUPPORT THE PROJECT:
+  1. Any texteditor can be used such as sublime text editor or VScode or notepad++
+  2. XAMPP software which acts as a local server
+  3. Node JS and NPM
+  4. A laptop or desktop pc with atleast 2 RAM GB, 100GB harddisk, processor 2.0 GHz
+  5. Mysql(may be optional) used to create a database(commandline) but xampp can also be used
+
+  INSTALLATION INSTRUCTIONS:
+  STEP 1: Mu-Ecommerce is the folder contains all contents front, back end and database
+  STEP 2: Copy and paste the folder Mu-Ecommerce in this path C:\xampp\htdocs\your project folder in this case Mu-Ecommerce but for this case
+  	   its not highly recomended you can palce every where in your hard disk	
+  STEP 3: inside the folder of Mu-Ecommerce there is textfile mu-ecommerce.sql 
+          which is the database file of the project it supposed to be imported in xampp before running the project
+          or you can your Terminal or Comand promt navigate to Mu-Ecommerce folder then type php artisan migrate 	 
+  STEP 4: Open Mu-Ecomeerce folder with any text editor then you will see .env file open it the for the configuraton put your password of
+          phpMyAdmin or for the configuration if you dont assign password in this path C:\xampp\phpMyAdmin config.inc 
+          dont write the password also in dbconfig.php file
+  STEP 5: For payment configuration in .env file the system is intergrated with stripe payment gateway and the key wich is there is for testing
+  	  for live production serarch foe live key in offcial stripe website then replace it 
+  STEP 6: For Email configuration in .env file change email and password of your own choice but for this case gmail is used or for default
+  	  for default you can leave it as it is
+  STEP 7: To run the project you can use any browser but before running the project
+          make sure you open XAMPP control panel and start services like Apache and Mysql
+  STEP 8: Afther that navigate to Mu-Ecommerce folder using Terminal or commandline then type php artisan serve to start laravel server
+  STEP 9: After that you can open the browser and write the following url:  http://127.0.0.1:8000 
+          to enter the interface page 
+  STEP 10: In the interface page for user to login they suppose to register first you can use 
+          email: erickemmanuel661@gmail.com
+          password: 12341234
+          just for testing customer login otherwise you can register a new account and use some of those credential to login
+  STEP 11: Also for a seller to login can use the following credentials for testing
+          email: rcalist3@gmail.com
+          password: 12341234
+          otherwise you can login as admin to add the seller
+  STEP 12: The admin is the controller who adds the seller, product categories, roles,  then for admin to login use
+          email: admin@admin.com
+          password: 12344321
+  STEP 13: The usability of the system is easy just by following these few procedures even a layman can be able to interact with the system
+            
+  
